@@ -18,7 +18,12 @@ if grocery_list.include?("bananas")
 else
   puts "You don't need to pick up bananas today"
 end
-
+puts "\n"
 
 #4 Display second item in the list
 puts grocery_list[1]
+puts "\n"
+
+#5 Sort
+displayGrocery(grocery_list.sort)
+puts "\n"
