@@ -27,3 +27,8 @@ puts "\n"
 #5 Sort
 displayGrocery(grocery_list.sort)
 puts "\n"
+
+#6 Delete salmon
+grocery_list.delete("salmon")
+displayGrocery(grocery_list.sort)
+puts "\n"
