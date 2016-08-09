@@ -11,3 +11,5 @@ def displayCohortInfo(students)
 end
 
 displayCohortInfo(students)
+
+students[:cohort4] = 43
