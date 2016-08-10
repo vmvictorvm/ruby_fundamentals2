@@ -25,3 +25,7 @@ end
 
 displayCohortInfo(students)
 puts "\n"
+
+#Delete the 2nd cohort and redisplay the hash
+students.delete(:cohort2)
+displayCohortInfo(students)
